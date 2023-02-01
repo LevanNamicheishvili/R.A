@@ -25,6 +25,21 @@ body {
   align-items: center;
   padding: 20px;
 }
+@media screen and (max-width: 555px) {
+  .card {
+    width: 420px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .card {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card {
+    width: 290px;
+  }
+}
 .card h1 {
   font-size: 20px;
   font-family: sans-serif;
