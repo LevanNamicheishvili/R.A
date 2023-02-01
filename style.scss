@@ -59,8 +59,8 @@ body{
     height: 70px;
     border: none;
     border-radius: 50px;
-    position: relative;
-    top: 16%;
+    position: absolute;
+    top: 60%;
     transition: 0.8s;
     cursor: pointer;
     &:hover { 
