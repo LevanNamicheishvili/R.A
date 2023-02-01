@@ -18,7 +18,7 @@ body {
   width: 514px;
   height: 348px;
   border-radius: 33px;
-  background-color: rgb(57, 62, 68);
+  background-color: rgb(235, 235, 235);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -43,7 +43,7 @@ body {
 .card h1 {
   font-size: 20px;
   font-family: sans-serif;
-  color: rgb(36, 223, 160);
+  color: rgb(163, 163, 163);
 }
 .card #text {
   font-size: 30px;
@@ -62,8 +62,8 @@ body {
   height: 70px;
   border: none;
   border-radius: 50px;
-  position: relative;
-  top: 16%;
+  position: absolute;
+  top: 60%;
   transition: 0.8s;
   cursor: pointer;
 }
