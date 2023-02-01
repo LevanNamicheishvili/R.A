@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(33, 40, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 514px;
+    height: 348px;
+    border-radius: 33px;
+    background-color:  rgb(57, 62, 68) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    h1 { 
+        font-size: 20px;
+        font-family: sans-serif;
+        color: rgb(36, 223, 160);
+    }
+
+    #text { 
+        font-size: 30px;
+        color: white;
+        font-family: ui-sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+#button { 
+    background-image: url('./images/icon-dice.svg');
+    background-position: center;
+    width: 70px;
+    background-color: #1fefdb;
+    background-repeat: no-repeat;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    top: 16%;
+    transition: 0.8s;
+    cursor: pointer;
+    &:hover { 
+        box-shadow: 0px 0px 88px 12px #0ff;
+        transition: 0.5s ;
+    }
+}
+#line { 
+    max-width: 100%;
+}
+
